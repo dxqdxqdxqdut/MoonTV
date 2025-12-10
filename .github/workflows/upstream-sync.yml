@@ -5,7 +5,7 @@ permissions:
 
 on:
   schedule:
-    - cron: "0 4 * * *" # 每天 UTC 时间 04:00 (北京时间中午 12:00) 运行
+    - cron: "0 18 * * *" # 每天 UTC 18:00 (北京时间 02:00) 运行
   workflow_dispatch: # 允许手动点击按钮运行
 
 jobs:
